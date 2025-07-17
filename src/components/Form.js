@@ -50,7 +50,7 @@ const copyText=()=>{
 
   </div>
   <h1>Text summary </h1>
-  <p> there are {text.split(" ").length} words and {text.length} characters</p>
+  <p> there are {text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
   <p>you need {0.008* text.split(" ").length} minutes to read this </p>
 </div>
 
