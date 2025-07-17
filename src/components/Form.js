@@ -39,7 +39,7 @@ const copyText=()=>{
     <>
 <div className="mb-3">
   <div className="container my-3">
-  <label  className="form-label">TextUtiles</label>
+  <label  className="form-label">Enter the Content here To Edit</label>
   <textarea className="form-control" id="box" value={text} onChange={changeText}  rows="12" style={{backgroundColor:props.mode==='light' ? 'white':'#0dcaf0',color:props.mode==='black;'?'white':'black'}}  ></textarea>
   <div className="container m-3">
   <button className="btn btn-primary m-1" onClick={setUPPERCASE}   >UPPERCASE</button>
