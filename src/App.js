@@ -49,11 +49,11 @@ const showAlert=(message,type)=>{
 
   {/* react routing   */}
 <Router>
-      <NAvbar title="textutils"  mode={mode}  toggle={toggleMode} text={text}  /> {/* Navbar her page pe dikhegi */}
+      <NAvbar title="this is my text editor app"  mode={mode}  toggle={toggleMode} text={text}  /> {/* Navbar her page pe dikhegi */}
       <Alert alert={alert} />
       <Routes>     {/* switch is exchange with routes in new version of react router */}
         <Route path="/" element={<Form />} />     {/* Default page  */}
-        <Route path="/About" element={<About showAlert={showAlert}  />} />
+        <Route path="/About" element={<About showAlert={showAlert}   />} />
         <Route path="/" element={<Form mode={mode}  />} />
       </Routes> 
     </Router>
