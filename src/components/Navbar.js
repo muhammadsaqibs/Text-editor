@@ -21,6 +21,7 @@ export default function Navbar(props){
         
         
       </ul>
+      
     <div className={`form-check form-switch text-${props.mode==='dark'?'light':'dark'} `}>
   <input className="form-check-input" type="checkbox" role="switch" id="switchCheckDefault" onClick={props.toggle} />
   <label className="form-check-label " htmlFor="switchCheckDefault" id="label" >{props.text}</label>
